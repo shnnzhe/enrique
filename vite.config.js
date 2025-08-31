@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// Untuk Vercel tidak perlu "base"
 export default defineConfig({
-  plugins: [react()],
-  base: '/enrique/', // <- ganti sesuai nama repo GitHub kamu
+  plugins: [react()]
 })
